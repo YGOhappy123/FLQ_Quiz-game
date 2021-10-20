@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="">
+    <div class="quiz-game">
+        <h1 class="quiz-game__heading hide">Question:</h1>
+        <div class="quiz-game__answer-btns hide"></div>
+        <div class="quiz-game__control-btns">
+            <button class="btn start-btn">Start</button>
+            <button class="btn next-btn hide">Next</button>
+            <button class="btn show-ans-btn hide">Show answer</button>
+            <button class="btn view-score-btn hide">View Score</button>
+        </div>
+        <div class="quiz-game__footer hide">
+            <div class="quiz-game__message">Message...</div>
+            <div class="quiz-game__score-wrap">
+                <div class="quiz-game__score-label">Your score:</div>
+                <div class="quiz-game__score">00</div>
+                /
+                <div class="quiz-game__max-score">00</div>
+            </div>
+        </div>
+        <div class="quiz-game__end-screen hide">
+            <i class="quiz-game__score-close-btn fas fa-times"></i>
+            <div class="quiz-game__score-label">Congratulation, your final score is:</div>
+            <div class="quiz-game__end-score-wrap">
+                <div class="quiz-game__end-score">00</div>
+                /
+                <div class="quiz-game__end-max-score">00</div>
+            </div>
+            <div class="quiz-game__score-label">Press ESC to close or ENTER to restart</div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
